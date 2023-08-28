@@ -7,9 +7,9 @@ import SecondProp from './SecondProp';
 function App() {
   return (
     <div>
-      <Welcome name="Alice" />
       <DefaultProps/>
-      <SecondProp name={<strong>Alice</strong>} age={30} />
+      {/* <SecondProp name={<strong>John</strong>} age={30} /> */}
+      <SecondProp name={'John'} age={18} />
     </div>
   );
 }
