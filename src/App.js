@@ -5,6 +5,9 @@ import SecondProp from './Welcome/SecondProp';
 import Counter from './Counter/Counter';
 import ClickCounter from './Counter/ClickCounter';
 import ClickTracker from './Counter/ClickTracker';
+import InteractiveWelcome from './Forms/InteractiveWelcome';
+import Login from './Forms/Login';
+import UncontrolledLogin from './Forms/UncontrolledLogin';
 // import CounterLifecycle from './CounterLifecycle';
   
 
@@ -17,6 +20,9 @@ function App() {
       <Counter valIniziale={5} incrementInterval={500} incrementQuantita={2} />
       <ClickCounter/>
       <ClickTracker/>
+      <InteractiveWelcome/>
+      <Login/>
+      <UncontrolledLogin/>
     </div>
   );
 }
