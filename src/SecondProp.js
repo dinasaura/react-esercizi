@@ -1,17 +1,19 @@
 import React from 'react';
+import AgeExtract from './AgeExtract';
 
 function SecondProp(props) {
   return (
     <div>
       <p>Welcome, {props.name}!</p>
-      <p>Your age is {props.age}.</p>
+      <AgeExtract age={props.age} />
     </div>
   );
 }
 
+
 SecondProp.defaultProps = {
   name: <strong> Luca </strong>,
-  age: '18'
+  age: ''
 };
 
 export default SecondProp;

@@ -9,7 +9,7 @@ function App() {
     <div>
       <Welcome name="Alice" />
       <DefaultProps/>
-      <SecondProp/>
+      <SecondProp name={<strong>Alice</strong>} age={30} />
     </div>
   );
 }
